@@ -46,7 +46,7 @@ function simple_php_captcha($config = array()) {
         'shadow_offset_y' => 1
     );
 
-    // Varsayılanları özel yapılandırma değerleriyle üzerine yaz
+    // Varsayılanları özel yapılandırma değerleriyle üzerine yazma
     if( is_array($config) ) {
         foreach( $config as $key => $value ) $captcha_config[$key] = $value;
     }
